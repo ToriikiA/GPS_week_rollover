@@ -15,3 +15,7 @@
    
 ## Особенности
 
+## Зависимости
+
+Библиотека для работы с Unix time
+https://github.com/GyverLibs/Stamp
