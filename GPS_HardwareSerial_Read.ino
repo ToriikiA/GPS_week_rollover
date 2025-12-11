@@ -7,7 +7,7 @@ HardwareSerial gpsSerial(2);
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Serial 0 started")
+  Serial.println("Serial 0 started");
     gpsSerial.begin(GPS_BAUD, SERIAL_8N1, RXD2, TXD2);
   Serial.println("Serial 2 started");
   Serial.println("-----------------------------------------");
