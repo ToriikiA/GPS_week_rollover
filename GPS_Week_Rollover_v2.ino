@@ -70,7 +70,7 @@ void loop() {
     }
     else{
       Serial.print(sentence + "\n");
-      //outSerial.print(fixed);
+      //outSerial.print(sentence + "\n);
     }
   }
   if (Serial.available()){
