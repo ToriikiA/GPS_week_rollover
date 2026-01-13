@@ -118,6 +118,7 @@ String fix_ZDA(String nmea) {
 String updateChecksum(String sentence) {
   int starPos = sentence.indexOf('*');
   if (starPos != -1) sentence = sentence.substring(0, starPos);
+  else return sentence;
   uint8_t checksum = 0;
   for (int i = 1; i < sentence.length(); ++i) {
     checksum ^= sentence[i];
